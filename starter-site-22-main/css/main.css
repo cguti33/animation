@@ -1,1 +1,40 @@
 /* Place CSS styles here */
+@keyframes sway  {
+    0% { transform: rotate(8deg); }
+    50% { transform: rotate(-8deg); }
+    100% { transform: rotate(8deg); }
+}
+
+body {
+  width: 100%;
+  background: #25bded;
+  border-top: 8px solid #fdfae3;
+}
+
+.object {
+  animation: sway 2.4s infinite;
+  animation-timing-function: ease-in-out;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  transform-origin: top;
+}
+
+.object-shape {
+  width: 54px;
+  height: 54px;
+  display: block;
+  background-color: #eb3b2e;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.object-rope {
+  height: 182px;
+  width: 1px;
+  background-color: #eb3b2e;
+  content:"";
+  display: block;
+  margin-left: 50%;
+  bottom: 54px;
+}
