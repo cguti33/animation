@@ -38,3 +38,13 @@ body {
   margin-left: 50%;
   bottom: 54px;
 }
+
+.object-rope {
+  height: 182px;
+  width: 1px;
+  background-color: #eb3b2e;
+  content:"";
+  display: block;
+  margin-left: 50%;
+  bottom: 54px;
+}
