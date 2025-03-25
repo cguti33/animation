@@ -15,7 +15,7 @@
 }
 
 .object-shape {
-  width: 225px;
+  width: 120px;
   height: 54px;
   display: block;
   margin: 0 auto;
@@ -24,14 +24,14 @@
 }
 
 .object-shape img {
-  width: 225px;
+  width: 120px;
 
 }
 
 .object-rope {
   height: 182px;
   width: 1px;
-  background-color: #eb3b2e;
+  background-color: #000000;
   content:"";
   display: block;
   margin-left: 50%;
