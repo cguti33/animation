@@ -39,9 +39,22 @@
 }
 
 .fade-element {
+  width:200px;
+  height: 200px;
   opacity: 0;
-  background-color: peachpuff;
   display: inline-flex;
-  padding: 20px;
+  padding: 10px;
   animation: fadeInFadeOut 2s infinite;
+}
+
+@keyframes fadeInFadeOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
