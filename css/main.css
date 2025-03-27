@@ -44,7 +44,7 @@
   opacity: 0;
   display: inline-flex;
   padding: 10px;
-  animation: fadeInFadeOut 2s infinite;
+  animation: fadeInFadeOut 4s infinite;
 }
 
 @keyframes fadeInFadeOut {
