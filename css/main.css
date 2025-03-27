@@ -44,17 +44,13 @@
   opacity: 0;
   display: inline-flex;
   padding: 10px;
-  animation: fadeInFadeOut 4s infinite;
+  position: absolute;
+  top: 33%;
+  left: 55%;
+  transform: translateY(-50%);
 }
 
-@keyframes fadeInFadeOut {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.fade-element.visible {
+  opacity: 1;
 }
+
