@@ -111,27 +111,35 @@ transition: transform 0.3s ease;}
           padding: 20px;
           }
           .hero-content {
-          width: 90%; /* Takes up 90% of the .hero container */
-          margin: 0 auto; /* Center the content */
+          width: 90%; 
+          margin: 0 auto;
           text-align: left;
           }
           @media (max-width: 768px) {
               .hero-content {
-                  width: 100%; /* Adjust width for smaller screens */
+                  width: 100%;
                   }
+                  }
+
+                  .hero h1 {
+                    font-size: 80px;
+                  }
+                  
+                  .hero p {
+                    font-size: 20px;
                   }
                   
 
 .offcanvas-nav {
-  position: relative; /* To position the menu within */
+  position: relative;
 }
 
 .menu {
-  position: fixed; /* Fixed position for overlay effect */
+  position: fixed;
   top: 164px;
   right: 0;
   height: 100%;
-  width: 250px; /* Adjust width as needed */
+  width: 250px; 
   background-color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
   transform: translateX(100%); /* Initially slide out to the left */
@@ -146,26 +154,26 @@ transition: transform 0.3s ease;}
 }
 
 .menu.expanded {
-  transform: translateX(0); /* Slide in when expanded */
+  transform: translateX(0); 
 }
 
 .menu-toggle {
-  /* Style the menu button as needed */
+  
 }
 
 @media (min-width: 768px) {
 .offcanvas-nav {
-    display: block; /* Show the full navigation on larger screens */
+    display: block; 
   }
 .menu {
-    display: block; /* Ensure menu is visible on larger screens */
-    position: static; /* Remove fixed positioning */
+    display: block;
+    position: static;
     width: auto;
-    transform: none; /* No need for transitions */
+    transform: none;
     box-shadow: none;
   }
 .menu-toggle {
-    display: none; /* Hide the toggle button on larger screens */
+    display: none;
   }
 }
 
